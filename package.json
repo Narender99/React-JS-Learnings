@@ -1,0 +1,27 @@
+{
+  "name": "namaste-react-js",
+  "version": "1.0.0",
+  "description": "React js course",
+  "keywords": [
+    "react",
+    "narender"
+  ],
+  "homepage": "https://github.com/Narender99/React-JS-Learnings#readme",
+  "bugs": {
+    "url": "https://github.com/Narender99/React-JS-Learnings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narender99/React-JS-Learnings.git"
+  },
+  "license": "ISC",
+  "author": "narender",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.13.3"
+  }
+}
