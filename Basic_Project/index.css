@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+
+.image {
+    width: 100px;
+    height: 80px;
+}
+
+.searchInput {
+    align-items: center;
+}
+
+.list_items {
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list_items li {
+    display: inline-block;
+}
+
+.list_items li:nth-last-child(1){
+   margin-left: 600px;
+}
+
+.list_items li:nth-last-child(2){
+   margin-left: 500px;
+}

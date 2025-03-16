@@ -1,0 +1,23 @@
+{
+  "name": "namaste-react-js",
+  "version": "1.0.0",
+  "description": "React js course",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@parcel/watcher": "^2.5.1",
+    "parcel": "^2.13.3",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
