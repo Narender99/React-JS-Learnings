@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    background-color: bisque;
+}
+
+.header-container h1{
+    margin: 0px;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.input-container label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input-field {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+}
+
+.add-btn {
+    margin: 0px 20px;
+}
+
+.add-btn button {
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+
+.add-btn button:hover {
+    background: aqua;
+    cursor: pointer;
+}
+
+.image {
+    width: 20px;
+    height: auto;
+    margin: 0px 5px;
+}
+
+.activities {
+    display: flex;
+    justify-content: start;
+    width: 35%;
+    position: relative;
+    left: 470px;
+    top: 30px;
+    background: white;
+    padding: 10px 50px 10px 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+}
+
+.edit-item {
+    background-color: rgb(35, 94, 145);
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    right: 500px;
+}
+
+.delete-item {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    right: 400px;
+}
+
+.save-item h3{
+    margin: 0px;
+}
+
+.save-item {
+    position: relative;
+    left: 610px;
+    margin: 5px 2px 0px 2px;
+    width: 50px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
