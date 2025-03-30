@@ -4,7 +4,8 @@
   "description": "React js course",
   "scripts": {
     "start": "parcel index.html",
-    "test": "jest"
+    "test": "jest",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "react": "^18.3.1",
